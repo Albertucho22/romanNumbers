@@ -1,0 +1,17 @@
+Requirements:
+1- The program should be made in Kotlin.
+2- The program must check if the data entered is a valid Roman numeral.
+
+Acceptance criteria:
+1- If an empty string is introduced, the method should return false.
+2- If a wrong Roman Number is introduced, the method should return false.
+
+Scenarios:
+1.1 --> "" --> false
+1.2 --> " " --> false
+
+2.1 --> "IIIIX" --> false
+2.2 --> "MMMM" --> false
+
+3.1 --> "X" --> true
+3.2 --> "VI" --> true
